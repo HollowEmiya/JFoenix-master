@@ -42,6 +42,7 @@ public class AboutController {
                 Desktop.getDesktop().browse(new URI("https://eminem-x.github.io/"));
             } catch (Exception e) {
                 e.printStackTrace();
+                
             }
         } else if (choice == Function.Exit.ordinal()) {
             Platform.exit();
