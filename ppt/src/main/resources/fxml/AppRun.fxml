@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import com.jfoenix.transitions.hamburger.HamburgerBackArrowBasicTransition?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.String?>
+<StackPane fx:id="root" xmlns:fx="http://javafx.com/fxml/1"
+           xmlns="http://javafx.com/javafx/2.2">
+    <BorderPane>
+        <top>
+            <VBox fx:id="vBox" spacing="20">
+                <JFXToolbar>
+                    <leftItems>
+                        <JFXRippler maskType="CIRCLE" style="-fx-ripple-color:WHITE;">
+                            <StackPane fx:id="titleBurgerContainer">
+                                <JFXHamburger fx:id="titleBurger">
+                                    <HamburgerBackArrowBasicTransition/>
+                                </JFXHamburger>
+                            </StackPane>
+                        </JFXRippler>
+                        <HBox fx:id="test">
+                            <JFXRippler fx:id="fileRippler" maskType="CIRCLE"
+                                        style="-fx-ripple-color:WHITE;">
+                                <StackPane fx:id="fileBurger">
+                                    <Label style="-fx-font-size: 20px;-fx-font-family: 'Gabriola'">文件</Label>
+                                </StackPane>
+                            </JFXRippler>
+                            <JFXRippler fx:id="startRippler" maskType="CIRCLE"
+                                        style="-fx-ripple-color:WHITE;">
+                                <StackPane fx:id="startBurger">
+                                    <Label style="-fx-font-size: 20px;-fx-font-family: 'Gabriola'">开始</Label>
+                                </StackPane>
+                            </JFXRippler>
+                            <JFXRippler fx:id="insertRippler" maskType="CIRCLE"
+                                        style="-fx-ripple-color:WHITE;">
+                                <StackPane fx:id="insertBurger">
+                                    <Label style="-fx-font-size: 20px;-fx-font-family: 'Gabriola'">插入</Label>
+                                </StackPane>
+                            </JFXRippler>
+                            <JFXRippler fx:id="editorRippler" maskType="CIRCLE"
+                                        style="-fx-ripple-color:WHITE;">
+                                <StackPane fx:id="editorBurger">
+                                    <Label style="-fx-font-size: 20px;-fx-font-family: 'Gabriola'">编辑</Label>
+                                </StackPane>
+                            </JFXRippler>
+                            <JFXRippler fx:id="showRippler" maskType="CIRCLE"
+                                        style="-fx-ripple-color:WHITE;">
+                                <StackPane fx:id="showBurger">
+                                    <Label style="-fx-font-size: 20px;-fx-font-family: 'Gabriola'">幻灯片放映</Label>
+                                </StackPane>
+                            </JFXRippler>
+                        </HBox>
+                    </leftItems>
+                    <rightItems>
+                        <JFXRippler fx:id="optionsRippler" maskType="CIRCLE"
+                                    style="-fx-ripple-color:WHITE;">
+                            <StackPane fx:id="optionsBurger">
+                                <JFXHamburger styleClass="jfx-options-burger">
+                                </JFXHamburger>
+                            </StackPane>
+                        </JFXRippler>
+                    </rightItems>
+                </JFXToolbar>
+            </VBox>
+        </top>
+
+        <!-- Content Area -->
+        <center>
+            <JFXDrawer fx:id="drawer" defaultDrawerSize="415" direction="LEFT">
+                <styleClass>
+                    <String fx:value="body"/>
+                </styleClass>
+            </JFXDrawer>
+        </center>
+    </BorderPane>
+</StackPane>

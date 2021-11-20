@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+<JFXListView fx:id="toolbarPopupList" styleClass="option-list-view"
+             onMouseClicked="#insert" onMouseEntered="#judge"
+             xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <Label>
+        图片
+        <graphic>
+            <StackPane styleClass="custom-jfx-list-view-icon-container">
+                <FontIcon iconLiteral="far-image" iconSize="18" styleClass="option-jfx-list-view-icon"/>
+            </StackPane>
+        </graphic>
+    </Label>
+    <Label>
+        文本框
+        <graphic>
+            <StackPane styleClass="custom-jfx-list-view-icon-container">
+                <FontIcon iconLiteral="fas-language" iconSize="18" styleClass="option-jfx-list-view-icon"/>
+            </StackPane>
+        </graphic>
+    </Label>
+    <Label>
+        形状
+        <graphic>
+            <StackPane styleClass="custom-jfx-list-view-icon-container">
+                <FontIcon iconLiteral="fas-square" iconSize="18" styleClass="option-jfx-list-view-icon"/>
+            </StackPane>
+        </graphic>
+    </Label>
+</JFXListView>
+
