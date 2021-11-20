@@ -18,9 +18,6 @@ import me.emiya.gui.main.MainController;
 
 import java.io.IOException;
 
-/**
- * @author Yuanhao
- */
 public class AppRun extends Application {
     @FXMLViewFlowContext
     private ViewFlowContext flowContext;
@@ -51,7 +48,7 @@ public class AppRun extends Application {
         decorator.setCustomMaximize(true);
         decorator.setGraphic(new SVGGlyph(""));
 
-        primaryStage.setTitle("PowerPoint");
+        primaryStage.setTitle("PoorPigTrick");
 
         double width = 1000;
         double height = 600;
