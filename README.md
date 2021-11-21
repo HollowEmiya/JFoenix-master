@@ -53,5 +53,5 @@
 
       1\. GitHub链接：https://github.com/sshahine/JFoenix
       
-      2\. 此开源项目使JavaFx的组件UI更加美观，并且简化了操作，提供了许多强大的组件
+      2\. 此开源项目使JavaFx的组件UI更加美观，并且简化了操作，提供了许多强大的组件.
 
