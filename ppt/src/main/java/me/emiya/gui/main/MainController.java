@@ -19,11 +19,8 @@ import me.emiya.mapping.Loader;
 import javax.annotation.PostConstruct;
 import java.io.File;
 
-/**
- * @author Yuanhao
- */
 @SuppressWarnings("all")
-@ViewController(value = "/fxml/AppRun.fxml", title = "PowerPoint")
+@ViewController(value = "/fxml/AppRun.fxml", title = "PoorPigTrick")
 public class MainController {
     @FXMLViewFlowContext
     private ViewFlowContext context;
@@ -97,7 +94,7 @@ public class MainController {
         loadController("/fxml/ui/popup/ShowPopup.fxml", "me.emiya.gui.main.topmenu.ShowController", showBarPopup, showBurger);
         loadController("/fxml/ui/popup/StartPopup.fxml", "me.emiya.gui.main.topmenu.StartController", startBarPopup, startBurger);
 
-        File file = new File("D:\\java\\JFoenix\\ppt\\src\\main\\resources\\新建 Microsoft PowerPoint 演示文稿.pptx");
+        File file = new File("D:\\biancheng\\Java\\Java.Code\\JFoenix\\ppt\\src\\main\\resources\\新建 Microsoft PowerPoint 演示文稿.pptx");
         if(!file.getParentFile().exists()) {
             file.getParentFile().mkdirs();
             file.createNewFile();

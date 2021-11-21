@@ -9,9 +9,6 @@ import me.emiya.mapping.Loader;
 
 import java.lang.reflect.Method;
 
-/**
- * @author Yuanhao
- */
 @SuppressWarnings("all")
 public class ShowController {
     @FXML
@@ -43,7 +40,7 @@ public class ShowController {
     private void showFromStart() {
         AppRun.stage.setFullScreen(true);
 
-        // ppt重置至初始第一页
+        // ppt重置至初始第1页
         Loader.slideIndex = -1;
         scrollAction(-1);
 

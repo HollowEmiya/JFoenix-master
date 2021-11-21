@@ -19,9 +19,6 @@ import org.kordamp.ikonli.javafx.FontIcon;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
-/**
- * @author Yuanhao
- */
 @SuppressWarnings("all")
 public class Loader {
     public static Group content = new Group();
@@ -58,7 +55,7 @@ public class Loader {
         this.ppt = new Presentation();
         ppt.loadFromFile(pptName);
 
-        // 用表操作ppt每一页 与此同时映射第一页
+        // 操作ppt每一页 与此同时映射第一页
         for (int i = 0; i < ppt.getSlides().getCount(); i++) {
             slideList.add(ppt.getSlides().get(i));
         }

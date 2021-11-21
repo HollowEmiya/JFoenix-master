@@ -9,9 +9,6 @@ import me.emiya.draw.stage.Board;
 import me.emiya.draw.stage.Shape;
 import org.kordamp.ikonli.javafx.FontIcon;
 
-/**
- * @author Yuanhao
- */
 public class EditorNodesList {
     private final JFXNodesList editorNodesList;
 

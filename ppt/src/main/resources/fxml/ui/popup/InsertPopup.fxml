@@ -24,7 +24,7 @@
         </graphic>
     </Label>
     <Label>
-        形状
+        来点形状
         <graphic>
             <StackPane styleClass="custom-jfx-list-view-icon-container">
                 <FontIcon iconLiteral="fas-square" iconSize="18" styleClass="option-jfx-list-view-icon"/>

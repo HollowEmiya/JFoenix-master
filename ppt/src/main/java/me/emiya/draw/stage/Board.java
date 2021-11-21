@@ -14,8 +14,6 @@ import javafx.scene.paint.Color;
 
 /**
  * 画板容器，由多张画布（图层）合成
- *
- * @author Yuanhao
  */
 @SuppressWarnings("all")
 public class Board {

@@ -5,9 +5,6 @@ import javafx.fxml.FXML;
 import me.emiya.AppRun;
 import me.emiya.draw.stage.Shape;
 
-/**
- * @author Yuanhao
- */
 public class EditorController {
     @FXML
     private JFXListView<?> toolbarPopupList;

@@ -10,9 +10,6 @@ import me.emiya.mapping.Loader;
 
 import java.io.File;
 
-/**
- * @author Yuanhao
- */
 @SuppressWarnings("all")
 public class InsertController {
     @FXML

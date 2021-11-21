@@ -4,8 +4,6 @@ import javafx.scene.paint.Color;
 
 /**
  * 当前图形类，纪录当前图形需要的属性
- *
- * @author Yuanhao
  */
 public class Shape {
     public static String toolName = "PEN";

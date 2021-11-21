@@ -2,8 +2,6 @@ package me.emiya.draw.common;
 
 /**
  * 定义所有尺寸
- *
- * @author Yuanhao
  */
 public class Size {
     /**

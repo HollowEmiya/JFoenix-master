@@ -4,9 +4,6 @@ import com.jfoenix.controls.JFXListView;
 import javafx.fxml.FXML;
 import me.emiya.mapping.Loader;
 
-/**
- * @author Yuanhao
- */
 public class StartController {
     @FXML
     private JFXListView<?> toolbarPopupList;

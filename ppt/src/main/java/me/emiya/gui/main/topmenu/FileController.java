@@ -11,9 +11,6 @@ import me.emiya.mapping.Loader;
 import java.io.File;
 import java.lang.reflect.Method;
 
-/**
- * @author Yuanhao
- */
 public class FileController {
     @FXML
     private JFXListView<?> toolbarPopupList;

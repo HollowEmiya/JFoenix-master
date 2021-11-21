@@ -32,7 +32,7 @@
         </graphic>
     </Label>
     <Label>
-        另存为
+        另存为..
         <graphic>
             <StackPane styleClass="custom-jfx-list-view-icon-container">
                 <FontIcon iconLiteral="far-folder" iconSize="18" styleClass="option-jfx-list-view-icon"/>

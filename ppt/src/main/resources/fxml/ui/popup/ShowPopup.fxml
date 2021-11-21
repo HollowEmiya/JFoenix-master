@@ -16,7 +16,7 @@
         </graphic>
     </Label>
     <Label>
-        当前放映
+        从当前页面
         <graphic>
             <StackPane styleClass="custom-jfx-list-view-icon-container">
                 <FontIcon iconLiteral="fas-play-circle" iconSize="18" styleClass="option-jfx-list-view-icon"/>

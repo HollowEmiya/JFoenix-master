@@ -8,7 +8,7 @@
              onMouseClicked="#edit" onMouseEntered="#judge"
              xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
     <Label>
-        画笔
+        马良の笔
         <graphic>
             <StackPane styleClass="custom-jfx-list-view-icon-container">
                 <FontIcon iconLiteral="fas-paint-brush" iconSize="18" styleClass="option-jfx-list-view-icon"/>
@@ -16,7 +16,7 @@
         </graphic>
     </Label>
     <Label>
-        橡皮擦
+        虚假橡皮擦
         <graphic>
             <StackPane styleClass="custom-jfx-list-view-icon-container">
                 <FontIcon iconLiteral="fas-eraser" iconSize="18" styleClass="option-jfx-list-view-icon"/>

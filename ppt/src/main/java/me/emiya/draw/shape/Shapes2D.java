@@ -6,8 +6,6 @@ import javafx.scene.paint.Color;
 
 /**
  * 画图类，设置画笔样式，封装画图函数
- *
- * @author Yuanhao
  */
 
 public class Shapes2D {
